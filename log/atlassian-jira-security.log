@@ -1,0 +1,10 @@
+2022-04-30 22:35:32,169+0530 http-nio-9090-exec-2 anonymous 1355x2x1 - 0:0:0:0:0:0:0:1 /secure/SetupMode!default.jspa HttpSession created [g5bm28]
+2022-05-01 00:21:35,690+0530 http-nio-9090-exec-16 anonymous 21x215x1 - 0:0:0:0:0:0:0:1 /secure/SetupAccount!default.jspa HttpSession created [ug22sg]
+2022-05-01 00:26:02,548+0530 AsynchronousJiraSetup anonymous 22x219x1 ug22sg 0:0:0:0:0:0:0:1 /secure/SetupFinishing!triggerSetup.jspa Jira 8.22.2 build: 822002 started. You can now access Jira through your web browser. Plugins and caches are being initialised.
+2022-05-01 00:31:40,319+0530 JIRA-Bootstrap      Jira 8.22.2 build: 822002 started. You can now access Jira through your web browser. Plugins and caches are being initialised.
+2022-05-01 00:34:21,463+0530 http-nio-9090-exec-5 anonymous 34x3x1 - 0:0:0:0:0:0:0:1 / HttpSession created [rs2pt7]
+2022-05-01 00:34:57,070+0530 http-nio-9090-exec-5 anonymous 34x33x1 rs2pt7 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login login : 'SYS_ADMIN' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2022-05-01 00:35:45,457+0530 http-nio-9090-exec-9 anonymous 35x34x1 rs2pt7 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login login : 'SYS_ADMIN' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2022-05-01 00:36:24,176+0530 http-nio-9090-exec-7 anonymous 36x56x1 rs2pt7 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login login : 'SRK' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2022-05-01 00:40:57,119+0530 http-nio-9090-exec-8 anonymous 40x107x1 rs2pt7 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login login : 'SYS_ADMIN' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2022-05-01 01:47:15,911+0530 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [rs2pt7] destroyed for 'anonymous'
