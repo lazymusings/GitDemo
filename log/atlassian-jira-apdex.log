@@ -1,3 +1,0 @@
-2022-05-01 01:47:07,999+0530 category: overall, apdex: {apdexScore=81, satisfiedCount=6, toleratingCount=1, frustratedCount=1}
-2022-05-01 01:47:08,003+0530 category: jira.header.menu.dashboards, apdex: {apdexScore=100, satisfiedCount=2, toleratingCount=0, frustratedCount=0}
-2022-05-01 01:47:08,003+0530 category: jira.dashboard, apdex: {apdexScore=75, satisfiedCount=4, toleratingCount=1, frustratedCount=1}

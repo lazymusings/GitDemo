@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="URL1" value="www.google.com"/>
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Personal Loan(failed)">
+    <parameter name="APIKey" value="12345"/>
+    <parameter name="URL" value="personalloan.com"/>
+    <classes>
+      <class name="test.day1">
+        <methods>
+          <include name="demo1"/>
+          <include name="demo4"/>
+          <include name="demo2"/>
+          <include name="demo3"/>
+        </methods>
+      </class> <!-- test.day1 -->
+      <class name="test.day2">
+        <methods>
+          <include name="demo5"/>
+          <include name="demo2"/>
+          <include name="demo1"/>
+          <include name="demo4"/>
+          <include name="demo6"/>
+          <include name="demo3"/>
+        </methods>
+      </class> <!-- test.day2 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+  <test thread-count="5" name="Car Loan(failed)">
+    <parameter name="URL" value="carloan.com"/>
+    <classes>
+      <class name="test.day3">
+        <methods>
+          <include name="mobileLogoutCarLoan"/>
+          <include name="mobileLoginCarLoan"/>
+          <include name="webLoginCarLoan"/>
+          <include name="apiLoginCarLoan"/>
+        </methods>
+      </class> <!-- test.day3 -->
+      <class name="test.day4">
+        <methods>
+          <include name="mobileLoginHomeLoan"/>
+          <include name="demo1"/>
+          <include name="apiLoginHomeLoan"/>
+          <include name="apiLogoutHomeLoan"/>
+        </methods>
+      </class> <!-- test.day4 -->
+    </classes>
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
