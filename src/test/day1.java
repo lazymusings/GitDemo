@@ -14,6 +14,7 @@ public class day1 {
 	public void demo1() {
 		System.out.println("Hello");
 		System.out.println("Hello1");
+		System.out.println("Hello2");
 	}
 
 	//TESTLEVEL PARAMETER
