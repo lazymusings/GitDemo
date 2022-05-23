@@ -13,7 +13,6 @@ public class day1 {
 	@Test(groups={"smoke"})
 	public void demo1() {
 		System.out.println("Hello");
-		System.out.println("Hello1");
 	}
 
 	//TESTLEVEL PARAMETER
